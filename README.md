@@ -1,2 +1,0 @@
-# whiskeybravo.github.io
-blog
