@@ -6,7 +6,7 @@ published: true
 tags: android, java, fragment
 ---
 
-New to making Android apps?  Take a minute and learn how to properly implement constructors for the Android [Fragment][1] pattern and avoid a common pitfall.
+Eager to use [Fragments][1] in your Android apps?  Take a minute and learn how to properly implement constructors for the Android [Fragment][1] pattern and avoid a common pitfall.
 
 ###The Problem
 As one might guess, you might pass arguments to a new [Fragment][1] by modifying the constructor.  This is in fact **not** the correct way to implement a [Fragment][1] in the Android style.
