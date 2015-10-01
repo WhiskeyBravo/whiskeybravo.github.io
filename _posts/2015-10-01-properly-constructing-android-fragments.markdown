@@ -38,7 +38,7 @@ public class MyAwesomeFragment extends Fragment {
 ```
 
 ###The Fix
-The correct way, [as stated by the documentation][2], is to set and pull your arguments out of Bundle objects.  This is important because Android uses this technique to serialize your class when resources are low, among others.
+The correct way, [as stated by the documentation][2], is to set and pull your arguments out of Bundle objects.  This is important because Android uses this technique to destroy and regenerate your fragments as needed.  If your fragment is destroyed and you don't use this approach for arguments, your application may crash or be restored in an inconsistent state.
 
 > Every fragment must have an empty constructor, so it can be instantiated when restoring its activity's state.
     
