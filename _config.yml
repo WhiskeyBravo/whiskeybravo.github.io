@@ -11,3 +11,10 @@ github_username:  WhiskeyBravo
 #github required
 safe: true
 lsi: false
+
+# Use Redcarpet as markdown generator as this is GitHub standard, makes the 
+# composer preview match the generated output.
+markdown: redcarpet
+
+# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
+permalink: pretty
