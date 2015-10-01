@@ -8,9 +8,6 @@ url: "http://whiskeybravo.github.io" # the base hostname & protocol for your sit
 twitter_username: WalkingWhiskey
 github_username:  WhiskeyBravo
 
-# Build settings
-markdown: kramdown
-
 #github required
 safe: true
 lsi: false
